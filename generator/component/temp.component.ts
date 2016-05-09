@@ -1,4 +1,4 @@
-/// <reference path="../../typings/angularjs/angular.d.ts" />
+
 import template from './<%= name %>.html';
 import controller from './<%= name %>.controller';
 import './<%= name %>.styl';
