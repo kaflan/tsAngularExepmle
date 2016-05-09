@@ -1,0 +1,15 @@
+{
+  "version": "v4",
+  "repo": "",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+     
+    },
+    "jquery/jquery.d.ts": {
+      
+    }
+  }
+}

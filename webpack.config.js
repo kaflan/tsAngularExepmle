@@ -7,7 +7,7 @@ module.exports = {
   entry: {},
   module: {
     loaders: [
-       { test: /\.ts$/, exclude: /(node_modules|bower_components)/, loader: 'awesome-typescript-loader' },
+       { test: /\.ts$/, exclude: [/node_modules, bower_components, generator/],loader: "awesome-typescript-loader" },
        { test: /\.html$/, loader: 'raw' },
        { test: /\.styl$/, loader: 'style!css!stylus' },
        { test: /\.css$/, loader: 'style!css' }
