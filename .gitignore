@@ -8,3 +8,4 @@ dist/
 .idea
 typings/angularjs
 typings/angular-ui-router
+typings/jquery
