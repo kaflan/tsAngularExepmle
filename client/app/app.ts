@@ -1,4 +1,4 @@
-/// <reference path="../../node_modules/angular/angular.js" />
+/// <reference path="../../typings/angularjs/angular.d.ts" />
 import * as angular from 'angular';
 import 'normalize.css';
 export default angular.module('app', [
